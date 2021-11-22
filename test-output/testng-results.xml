@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-19T11:40:22Z" name="Default suite" finished-at="2021-11-19T11:41:18Z" duration-ms="55856">
+    <groups>
+    </groups>
+    <test started-at="2021-11-19T11:40:22Z" name="Default test" finished-at="2021-11-19T11:41:18Z" duration-ms="55856">
+      <class name="com.mindtree.com.testcases.TC_011_TrackYourOrder">
+        <test-method signature="Track(java.lang.String, java.lang.String)[pri:0, instance:com.mindtree.com.testcases.TC_011_TrackYourOrder@4426bff1]" started-at="2021-11-19T17:10:23Z" name="Track" data-provider="getdata" finished-at="2021-11-19T17:10:44Z" duration-ms="20769" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[surektchishravani@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TC79456632100]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Track -->
+        <test-method signature="Track(java.lang.String, java.lang.String)[pri:0, instance:com.mindtree.com.testcases.TC_011_TrackYourOrder@4426bff1]" started-at="2021-11-19T17:10:44Z" name="Track" data-provider="getdata" finished-at="2021-11-19T17:11:17Z" duration-ms="32546" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcdef@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TC0909056]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Track -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mindtree.com.testcases.TC_011_TrackYourOrder@4426bff1]" started-at="2021-11-19T17:11:17Z" name="teardown" finished-at="2021-11-19T17:11:18Z" duration-ms="1298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.mindtree.com.testcases.TC_011_TrackYourOrder -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

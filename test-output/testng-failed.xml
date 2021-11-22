@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.mindtree.com.utilities.Listeners"/>
+  </listeners>
+  <test parallel="none" name="Adding3Items(failed)">
+    <classes>
+      <class name="com.mindtree.com.testcases.TC_006_WishList">
+        <methods>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.mindtree.com.testcases.TC_006_WishList -->
+      <class name="com.mindtree.com.testcases.TC_004_Gifts">
+        <methods>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.mindtree.com.testcases.TC_004_Gifts -->
+      <class name="com.mindtree.com.testcases.TC_002_Search">
+        <methods>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.mindtree.com.testcases.TC_002_Search -->
+      <class name="com.mindtree.com.testcases.TC_009_IncreaseQuantity">
+        <methods>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.mindtree.com.testcases.TC_009_IncreaseQuantity -->
+      <class name="com.mindtree.com.testcases.TC_005_Cart">
+        <methods>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.mindtree.com.testcases.TC_005_Cart -->
+      <class name="com.mindtree.com.testcases.TC_008_ValidateTitle">
+        <methods>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.mindtree.com.testcases.TC_008_ValidateTitle -->
+      <class name="com.mindtree.com.testcases.TC_007_Adding3Items">
+        <methods>
+          <include name="teardown"/>
+          <include name="Cart_Three_Items"/>
+        </methods>
+      </class> <!-- com.mindtree.com.testcases.TC_007_Adding3Items -->
+      <class name="com.mindtree.com.testcases.TC_010_GiftCard">
+        <methods>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.mindtree.com.testcases.TC_010_GiftCard -->
+      <class name="com.mindtree.com.testcases.TC_001_Login">
+        <methods>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.mindtree.com.testcases.TC_001_Login -->
+      <class name="com.mindtree.com.testcases.TC_003_EstimatedDelivery">
+        <methods>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.mindtree.com.testcases.TC_003_EstimatedDelivery -->
+    </classes>
+  </test> <!-- Adding3Items(failed) -->
+</suite> <!-- Failed suite [Suite] -->

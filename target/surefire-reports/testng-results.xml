@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-22T06:19:11Z" name="Suite" finished-at="2021-11-22T06:22:31Z" duration-ms="200355">
+    <groups>
+    </groups>
+    <test started-at="2021-11-22T06:19:11Z" name="Test" finished-at="2021-11-22T06:19:39Z" duration-ms="28133">
+      <class name="com.mindtree.com.testcases.TC_008_ValidateTitle">
+        <test-method signature="Title()[pri:0, instance:com.mindtree.com.testcases.TC_008_ValidateTitle@591e58fa]" started-at="2021-11-22T11:49:11Z" name="Title" finished-at="2021-11-22T11:49:38Z" duration-ms="27681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Title -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mindtree.com.testcases.TC_008_ValidateTitle@591e58fa]" started-at="2021-11-22T11:49:38Z" name="teardown" finished-at="2021-11-22T11:49:39Z" duration-ms="410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.mindtree.com.testcases.TC_008_ValidateTitle -->
+    </test> <!-- Test -->
+    <test started-at="2021-11-22T06:19:40Z" name="Search" finished-at="2021-11-22T06:19:58Z" duration-ms="18288">
+      <class name="com.mindtree.com.testcases.TC_002_Search">
+        <test-method signature="Search()[pri:0, instance:com.mindtree.com.testcases.TC_002_Search@5db4c359]" started-at="2021-11-22T11:49:40Z" name="Search" finished-at="2021-11-22T11:49:58Z" duration-ms="18120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mindtree.com.testcases.TC_002_Search@5db4c359]" started-at="2021-11-22T11:49:58Z" name="teardown" finished-at="2021-11-22T11:49:58Z" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.mindtree.com.testcases.TC_002_Search -->
+    </test> <!-- Search -->
+    <test started-at="2021-11-22T06:19:58Z" name="WishList" finished-at="2021-11-22T06:20:17Z" duration-ms="18739">
+      <class name="com.mindtree.com.testcases.TC_006_WishList">
+        <test-method signature="Increase()[pri:0, instance:com.mindtree.com.testcases.TC_006_WishList@192f2f27]" started-at="2021-11-22T11:49:58Z" name="Increase" finished-at="2021-11-22T11:50:17Z" duration-ms="18497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Increase -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mindtree.com.testcases.TC_006_WishList@192f2f27]" started-at="2021-11-22T11:50:17Z" name="teardown" finished-at="2021-11-22T11:50:17Z" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.mindtree.com.testcases.TC_006_WishList -->
+    </test> <!-- WishList -->
+    <test started-at="2021-11-22T06:20:17Z" name="Cart" finished-at="2021-11-22T06:20:37Z" duration-ms="20063">
+      <class name="com.mindtree.com.testcases.TC_005_Cart">
+        <test-method signature="Cart()[pri:0, instance:com.mindtree.com.testcases.TC_005_Cart@5cc69cfe]" started-at="2021-11-22T11:50:17Z" name="Cart" finished-at="2021-11-22T11:50:36Z" duration-ms="19135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mindtree.com.testcases.TC_005_Cart@5cc69cfe]" started-at="2021-11-22T11:50:36Z" name="teardown" finished-at="2021-11-22T11:50:37Z" duration-ms="926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.mindtree.com.testcases.TC_005_Cart -->
+    </test> <!-- Cart -->
+    <test started-at="2021-11-22T06:20:38Z" name="Gifts" finished-at="2021-11-22T06:21:02Z" duration-ms="24658">
+      <class name="com.mindtree.com.testcases.TC_004_GiftsDropDown">
+        <test-method signature="Dropdown()[pri:0, instance:com.mindtree.com.testcases.TC_004_GiftsDropDown@770d4269]" started-at="2021-11-22T11:50:38Z" name="Dropdown" finished-at="2021-11-22T11:50:58Z" duration-ms="20362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dropdown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mindtree.com.testcases.TC_004_GiftsDropDown@770d4269]" started-at="2021-11-22T11:50:58Z" name="teardown" finished-at="2021-11-22T11:51:02Z" duration-ms="4294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.mindtree.com.testcases.TC_004_GiftsDropDown -->
+    </test> <!-- Gifts -->
+    <test started-at="2021-11-22T06:21:03Z" name="Adding3Items" finished-at="2021-11-22T06:21:24Z" duration-ms="21296">
+      <class name="com.mindtree.com.testcases.TC_007_Adding3Items">
+        <test-method signature="Cart_Three_Items()[pri:0, instance:com.mindtree.com.testcases.TC_007_Adding3Items@611f8234]" started-at="2021-11-22T11:51:03Z" name="Cart_Three_Items" finished-at="2021-11-22T11:51:24Z" duration-ms="21064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cart_Three_Items -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mindtree.com.testcases.TC_007_Adding3Items@611f8234]" started-at="2021-11-22T11:51:24Z" name="teardown" finished-at="2021-11-22T11:51:24Z" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.mindtree.com.testcases.TC_007_Adding3Items -->
+    </test> <!-- Adding3Items -->
+    <test started-at="2021-11-22T06:21:24Z" name="EstimatedDelivery" finished-at="2021-11-22T06:21:47Z" duration-ms="22665">
+      <class name="com.mindtree.com.testcases.TC_003_EstimatedDelivery">
+        <test-method signature="Delivery()[pri:0, instance:com.mindtree.com.testcases.TC_003_EstimatedDelivery@b91d8c4]" started-at="2021-11-22T11:51:24Z" name="Delivery" finished-at="2021-11-22T11:51:43Z" duration-ms="18469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Delivery -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mindtree.com.testcases.TC_003_EstimatedDelivery@b91d8c4]" started-at="2021-11-22T11:51:43Z" name="teardown" finished-at="2021-11-22T11:51:47Z" duration-ms="4194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.mindtree.com.testcases.TC_003_EstimatedDelivery -->
+    </test> <!-- EstimatedDelivery -->
+    <test started-at="2021-11-22T06:21:47Z" name="IncreseQuantity" finished-at="2021-11-22T06:22:09Z" duration-ms="22110">
+      <class name="com.mindtree.com.testcases.TC_009_IncreaseQuantity">
+        <test-method signature="Title()[pri:0, instance:com.mindtree.com.testcases.TC_009_IncreaseQuantity@a7e2d9d]" started-at="2021-11-22T11:51:47Z" name="Title" finished-at="2021-11-22T11:52:05Z" duration-ms="17934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Title -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mindtree.com.testcases.TC_009_IncreaseQuantity@a7e2d9d]" started-at="2021-11-22T11:52:05Z" name="teardown" finished-at="2021-11-22T11:52:09Z" duration-ms="4176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.mindtree.com.testcases.TC_009_IncreaseQuantity -->
+    </test> <!-- IncreseQuantity -->
+    <test started-at="2021-11-22T06:22:09Z" name="GiftCard" finished-at="2021-11-22T06:22:31Z" duration-ms="21704">
+      <class name="com.mindtree.com.testcases.TC_010_GiftCard">
+        <test-method signature="Cart()[pri:0, instance:com.mindtree.com.testcases.TC_010_GiftCard@7de0c6ae]" started-at="2021-11-22T11:52:09Z" name="Cart" finished-at="2021-11-22T11:52:30Z" duration-ms="21195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mindtree.com.testcases.TC_010_GiftCard@7de0c6ae]" started-at="2021-11-22T11:52:30Z" name="teardown" finished-at="2021-11-22T11:52:31Z" duration-ms="507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.mindtree.com.testcases.TC_010_GiftCard -->
+    </test> <!-- GiftCard -->
+  </suite> <!-- Suite -->
+</testng-results>

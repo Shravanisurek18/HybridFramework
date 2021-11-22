@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="203.606" tests="9" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="16"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\sravani-jukebox\ComprehensiveAssessment\Driver\chromedrivernew.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\sravani-jukebox\ComprehensiveAssessment\target\test-classes;C:\Users\sravani-jukebox\ComprehensiveAssessment\target\classes;C:\Users\sravani-jukebox\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\sravani-jukebox\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\sravani-jukebox\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\sravani-jukebox\.m2\repository\org\seleniumhq\selenium\selenium-java\3.4.0\selenium-java-3.4.0.jar;C:\Users\sravani-jukebox\.m2\repository\org\seleniumhq\selenium\selenium-api\3.4.0\selenium-api-3.4.0.jar;C:\Users\sravani-jukebox\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.4.0\selenium-chrome-driver-3.4.0.jar;C:\Users\sravani-jukebox\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.4.0\selenium-edge-driver-3.4.0.jar;C:\Users\sravani-jukebox\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.4.0\selenium-firefox-driver-3.4.0.jar;C:\Users\sravani-jukebox\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.4.0\selenium-ie-driver-3.4.0.jar;C:\Users\sravani-jukebox\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.4.0\selenium-opera-driver-3.4.0.jar;C:\Users\sravani-jukebox\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.4.0\selenium-remote-driver-3.4.0.jar;C:\Users\sravani-jukebox\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.4.0\selenium-safari-driver-3.4.0.jar;C:\Users\sravani-jukebox\.m2\repository\org\seleniumhq\selenium\selenium-support\3.4.0\selenium-support-3.4.0.jar;C:\Users\sravani-jukebox\.m2\repository\cglib\cglib-nodep\3.2.4\cglib-nodep-3.2.4.jar;C:\Users\sravani-jukebox\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\sravani-jukebox\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\sravani-jukebox\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\sravani-jukebox\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\sravani-jukebox\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\sravani-jukebox\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.22\cssparser-0.9.22.jar;C:\Users\sravani-jukebox\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\sravani-jukebox\.m2\repository\com\google\guava\guava\21.0\guava-21.0.jar;C:\Users\sravani-jukebox\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\sravani-jukebox\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.26\htmlunit-2.26.jar;C:\Users\sravani-jukebox\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.26\htmlunit-core-js-2.26.jar;C:\Users\sravani-jukebox\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.25\neko-htmlunit-2.25.jar;C:\Users\sravani-jukebox\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\sravani-jukebox\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\sravani-jukebox\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\sravani-jukebox\.m2\repository\org\eclipse\jetty\jetty-io\9.4.1.v20170120\jetty-io-9.4.1.v20170120.jar;C:\Users\sravani-jukebox\.m2\repository\org\eclipse\jetty\jetty-util\9.4.1.v20170120\jetty-util-9.4.1.v20170120.jar;C:\Users\sravani-jukebox\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar;C:\Users\sravani-jukebox\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar;C:\Users\sravani-jukebox\.m2\repository\com\codeborne\phantomjsdriver\1.4.0\phantomjsdriver-1.4.0.jar;C:\Users\sravani-jukebox\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.26\htmlunit-driver-2.26.jar;C:\Users\sravani-jukebox\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\sravani-jukebox\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.3.v20170317\websocket-api-9.4.3.v20170317.jar;C:\Users\sravani-jukebox\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.3.v20170317\websocket-client-9.4.3.v20170317.jar;C:\Users\sravani-jukebox\.m2\repository\org\eclipse\jetty\jetty-client\9.4.3.v20170317\jetty-client-9.4.3.v20170317.jar;C:\Users\sravani-jukebox\.m2\repository\org\eclipse\jetty\jetty-http\9.4.3.v20170317\jetty-http-9.4.3.v20170317.jar;C:\Users\sravani-jukebox\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.3.v20170317\websocket-common-9.4.3.v20170317.jar;C:\Users\sravani-jukebox\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\sravani-jukebox\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\sravani-jukebox\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\sravani-jukebox\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\sravani-jukebox\.m2\repository\org\testng\testng\6.8\testng-6.8.jar;C:\Users\sravani-jukebox\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\sravani-jukebox\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;C:\Users\sravani-jukebox\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;C:\Users\sravani-jukebox\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\sravani-jukebox\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\sravani-jukebox\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\sravani-jukebox\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\sravani-jukebox\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\sravani-jukebox\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\sravani-jukebox\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\sravani-jukebox\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\sravani-jukebox\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\sravani-jukebox\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\sravani-jukebox\.m2\repository\com\aventstack\extentreports\3.0.6\extentreports-3.0.6.jar;C:\Users\sravani-jukebox\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\sravani-jukebox\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\sravani-jukebox\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\sravani-jukebox\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\sravani-jukebox\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\sravani-jukebox\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\sravani-jukebox\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-16.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\sravani-jukebox\AppData\Local\Temp\surefire14081584135394031913\surefirebooter14822305240953609264.jar C:\Users\sravani-jukebox\AppData\Local\Temp\surefire14081584135394031913 2021-11-22T11-49-07_050-jvmRun1 surefire15455683916711306679tmp surefire_09168454986378782763tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\sravani-jukebox\ComprehensiveAssessment\target\test-classes;C:\Users\sravani-jukebox\ComprehensiveAssessment\target\classes;C:\Users\sravani-jukebox\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\sravani-jukebox\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\sravani-jukebox\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\sravani-jukebox\.m2\repository\org\seleniumhq\selenium\selenium-java\3.4.0\selenium-java-3.4.0.jar;C:\Users\sravani-jukebox\.m2\repository\org\seleniumhq\selenium\selenium-api\3.4.0\selenium-api-3.4.0.jar;C:\Users\sravani-jukebox\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.4.0\selenium-chrome-driver-3.4.0.jar;C:\Users\sravani-jukebox\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.4.0\selenium-edge-driver-3.4.0.jar;C:\Users\sravani-jukebox\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.4.0\selenium-firefox-driver-3.4.0.jar;C:\Users\sravani-jukebox\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.4.0\selenium-ie-driver-3.4.0.jar;C:\Users\sravani-jukebox\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.4.0\selenium-opera-driver-3.4.0.jar;C:\Users\sravani-jukebox\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.4.0\selenium-remote-driver-3.4.0.jar;C:\Users\sravani-jukebox\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.4.0\selenium-safari-driver-3.4.0.jar;C:\Users\sravani-jukebox\.m2\repository\org\seleniumhq\selenium\selenium-support\3.4.0\selenium-support-3.4.0.jar;C:\Users\sravani-jukebox\.m2\repository\cglib\cglib-nodep\3.2.4\cglib-nodep-3.2.4.jar;C:\Users\sravani-jukebox\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\sravani-jukebox\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\sravani-jukebox\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\sravani-jukebox\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\sravani-jukebox\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\sravani-jukebox\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.22\cssparser-0.9.22.jar;C:\Users\sravani-jukebox\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\sravani-jukebox\.m2\repository\com\google\guava\guava\21.0\guava-21.0.jar;C:\Users\sravani-jukebox\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\sravani-jukebox\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.26\htmlunit-2.26.jar;C:\Users\sravani-jukebox\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.26\htmlunit-core-js-2.26.jar;C:\Users\sravani-jukebox\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.25\neko-htmlunit-2.25.jar;C:\Users\sravani-jukebox\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\sravani-jukebox\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\sravani-jukebox\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\sravani-jukebox\.m2\repository\org\eclipse\jetty\jetty-io\9.4.1.v20170120\jetty-io-9.4.1.v20170120.jar;C:\Users\sravani-jukebox\.m2\repository\org\eclipse\jetty\jetty-util\9.4.1.v20170120\jetty-util-9.4.1.v20170120.jar;C:\Users\sravani-jukebox\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar;C:\Users\sravani-jukebox\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar;C:\Users\sravani-jukebox\.m2\repository\com\codeborne\phantomjsdriver\1.4.0\phantomjsdriver-1.4.0.jar;C:\Users\sravani-jukebox\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.26\htmlunit-driver-2.26.jar;C:\Users\sravani-jukebox\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\sravani-jukebox\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.3.v20170317\websocket-api-9.4.3.v20170317.jar;C:\Users\sravani-jukebox\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.3.v20170317\websocket-client-9.4.3.v20170317.jar;C:\Users\sravani-jukebox\.m2\repository\org\eclipse\jetty\jetty-client\9.4.3.v20170317\jetty-client-9.4.3.v20170317.jar;C:\Users\sravani-jukebox\.m2\repository\org\eclipse\jetty\jetty-http\9.4.3.v20170317\jetty-http-9.4.3.v20170317.jar;C:\Users\sravani-jukebox\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.3.v20170317\websocket-common-9.4.3.v20170317.jar;C:\Users\sravani-jukebox\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\sravani-jukebox\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\sravani-jukebox\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\sravani-jukebox\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\sravani-jukebox\.m2\repository\org\testng\testng\6.8\testng-6.8.jar;C:\Users\sravani-jukebox\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\sravani-jukebox\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;C:\Users\sravani-jukebox\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;C:\Users\sravani-jukebox\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\sravani-jukebox\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\sravani-jukebox\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\sravani-jukebox\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\sravani-jukebox\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\sravani-jukebox\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\sravani-jukebox\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\sravani-jukebox\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\sravani-jukebox\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\sravani-jukebox\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\sravani-jukebox\.m2\repository\com\aventstack\extentreports\3.0.6\extentreports-3.0.6.jar;C:\Users\sravani-jukebox\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\sravani-jukebox\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\sravani-jukebox\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\sravani-jukebox\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\sravani-jukebox\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\sravani-jukebox\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\sravani-jukebox\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\sravani-jukebox"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-07-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-16.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\sravani-jukebox\ComprehensiveAssessment"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\sravani-jukebox\AppData\Local\Temp\surefire14081584135394031913\surefirebooter14822305240953609264.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="16.0.2+7-67"/>
+    <property name="user.name" value="sravani-jukebox"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\sravani-jukebox\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\SRAVAN~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="16.0.2"/>
+    <property name="user.dir" value="C:\Users\sravani-jukebox\ComprehensiveAssessment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-16.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Eclipse/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205/jre/bin/server;C:/Program Files/Eclipse/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Python38\Scripts\;C:\Program Files\Python38\;C:\Program Files (x86)\Brackets\command;C:\Program Files\Java\jdk-16.0.2\bin;C:\Program Files\Git\cmd;C:\Users\sravani-jukebox\anaconda3;C:\Users\sravani-jukebox\anaconda3\Library\mingw-w64\bin;C:\Users\sravani-jukebox\anaconda3\Library\usr\bin;C:\Users\sravani-jukebox\anaconda3\Library\bin;C:\Users\sravani-jukebox\anaconda3\Scripts;C:\Users\sravani-jukebox\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\sravani-jukebox\AppData\Local\Programs\Python\Python38\;C:\Users\sravani-jukebox\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm 2021.1.1\bin;;C:\Program Files\Python38\Scripts\;C:\Program Files\Python38\;C:\Users\sravani-jukebox\AppData\Local\Programs\Microsoft VS Code\bin;E:\apache-maven-3.8.2\bin;;C:\Program Files\Eclipse\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="16.0.2+7-67"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="60.0"/>
+  </properties>
+  <testcase name="Title" classname="com.mindtree.com.testcases.TC_008_ValidateTitle" time="27.716">
+    <system-out><![CDATA[2021.11.22.11.49.11-----------
+Test-Report2021.11.22.11.49.11.html
+[INFO ] 2021-11-22 11:49:26.104 [main] ReadConfig - Driver is initialized
+[INFO ] 2021-11-22 11:49:33.537 [main] ReadConfig - Navigated to URL
+[INFO ] 2021-11-22 11:49:38.002 [main] ReadConfig - Birthday gifts is selected from dropdown
+[INFO ] 2021-11-22 11:49:38.699 [main] ReadConfig - Title validation done
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 35046
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 22, 2021 11:49:25 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Search" classname="com.mindtree.com.testcases.TC_002_Search" time="18.147">
+    <system-out><![CDATA[[INFO ] 2021-11-22 11:49:39.137 [main] ReadConfig - Driver is closed
+2021.11.22.11.49.40-----------
+Test-Report2021.11.22.11.49.40.html
+[INFO ] 2021-11-22 11:49:43.904 [main] ReadConfig - Driver is initialized
+[INFO ] 2021-11-22 11:49:49.802 [main] ReadConfig - Navigated to URL
+[INFO ] 2021-11-22 11:49:54.041 [main] ReadConfig - Product name is entered
+[INFO ] 2021-11-22 11:49:54.041 [main] ReadConfig - Navigated to Search Page
+[INFO ] 2021-11-22 11:49:58.578 [main] ReadConfig - Navigated to Product Page
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 41460
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 22, 2021 11:49:43 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Increase" classname="com.mindtree.com.testcases.TC_006_WishList" time="18.515">
+    <system-out><![CDATA[[INFO ] 2021-11-22 11:49:58.745 [main] ReadConfig - Driver is closed
+2021.11.22.11.49.58-----------
+Test-Report2021.11.22.11.49.58.html
+[INFO ] 2021-11-22 11:50:03.041 [main] ReadConfig - driver is intialized
+[INFO ] 2021-11-22 11:50:08.613 [main] ReadConfig - Navigated to URL
+[INFO ] 2021-11-22 11:50:11.683 [main] ReadConfig - navigated to search page
+[INFO ] 2021-11-22 11:50:16.824 [main] ReadConfig - navigated to product description page
+[INFO ] 2021-11-22 11:50:17.434 [main] ReadConfig - Product is added to wishlist
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 37717
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 22, 2021 11:50:03 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Cart" classname="com.mindtree.com.testcases.TC_005_Cart" time="19.153">
+    <system-out><![CDATA[[INFO ] 2021-11-22 11:50:17.675 [main] ReadConfig - Driver is closed
+2021.11.22.11.50.17-----------
+Test-Report2021.11.22.11.50.17.html
+[INFO ] 2021-11-22 11:50:21.116 [main] ReadConfig - driver is intialized
+[INFO ] 2021-11-22 11:50:27.114 [main] ReadConfig - Navigated to URL
+[INFO ] 2021-11-22 11:50:30.222 [main] ReadConfig - navigated to search page
+[INFO ] 2021-11-22 11:50:36.395 [main] ReadConfig - navigated to product description page
+[INFO ] 2021-11-22 11:50:36.954 [main] ReadConfig - Product is added to cart
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 6196
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 22, 2021 11:50:21 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Dropdown" classname="com.mindtree.com.testcases.TC_004_GiftsDropDown" time="20.368">
+    <system-out><![CDATA[[INFO ] 2021-11-22 11:50:37.880 [main] ReadConfig - Driver is closed
+2021.11.22.11.50.38-----------
+Test-Report2021.11.22.11.50.38.html
+[INFO ] 2021-11-22 11:50:42.820 [main] ReadConfig - Driver is initialized
+[INFO ] 2021-11-22 11:50:48.849 [main] ReadConfig - Navigated to URL
+[INFO ] 2021-11-22 11:50:52.086 [main] ReadConfig - Navigated to Search Page by selecting from dropdown
+[INFO ] 2021-11-22 11:50:55.304 [main] ReadConfig - Navigated to Birthday gifts page
+[INFO ] 2021-11-22 11:50:58.649 [main] ReadConfig - Navigated to Kids gift page
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 27608
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 22, 2021 11:50:42 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Cart_Three_Items" classname="com.mindtree.com.testcases.TC_007_Adding3Items" time="21.08">
+    <system-out><![CDATA[[INFO ] 2021-11-22 11:51:02.945 [main] ReadConfig - Driver is closed
+2021.11.22.11.51.03-----------
+Test-Report2021.11.22.11.51.03.html
+[INFO ] 2021-11-22 11:51:06.146 [main] ReadConfig - Driver is initialized
+[INFO ] 2021-11-22 11:51:12.637 [main] ReadConfig - Navigated to URL
+[INFO ] 2021-11-22 11:51:15.603 [main] ReadConfig - Search page is opened
+[INFO ] 2021-11-22 11:51:18.531 [main] ReadConfig - Product description page is opened
+[INFO ] 2021-11-22 11:51:20.250 [main] ReadConfig - product is added to cart
+[INFO ] 2021-11-22 11:51:22.193 [main] ReadConfig - Shopping can be continued
+[INFO ] 2021-11-22 11:51:22.313 [main] ReadConfig - Another product can be selected
+[INFO ] 2021-11-22 11:51:22.427 [main] ReadConfig - product is added to cart
+[INFO ] 2021-11-22 11:51:23.744 [main] ReadConfig - Shopping can be continued
+[INFO ] 2021-11-22 11:51:24.058 [main] ReadConfig - Another product can be selected
+[INFO ] 2021-11-22 11:51:24.153 [main] ReadConfig - product is added to cart
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 16897
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 22, 2021 11:51:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Delivery" classname="com.mindtree.com.testcases.TC_003_EstimatedDelivery" time="18.477">
+    <system-out><![CDATA[[INFO ] 2021-11-22 11:51:24.384 [main] ReadConfig - Driver is closed
+2021.11.22.11.51.24-----------
+Test-Report2021.11.22.11.51.24.html
+[INFO ] 2021-11-22 11:51:27.503 [main] ReadConfig - Driver is initialized
+[INFO ] 2021-11-22 11:51:34.475 [main] ReadConfig - Navigated to URL
+[INFO ] 2021-11-22 11:51:38.081 [main] ReadConfig - Product name is entered
+[INFO ] 2021-11-22 11:51:38.082 [main] ReadConfig - Navigated to Search Page
+[INFO ] 2021-11-22 11:51:42.465 [main] ReadConfig - Navigated to Product Page
+[INFO ] 2021-11-22 11:51:43.003 [main] ReadConfig - Estimated Delivery is displayed
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 44429
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 22, 2021 11:51:27 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Title" classname="com.mindtree.com.testcases.TC_009_IncreaseQuantity" time="17.938">
+    <system-out><![CDATA[[INFO ] 2021-11-22 11:51:47.197 [main] ReadConfig - Driver is closed
+2021.11.22.11.51.47-----------
+Test-Report2021.11.22.11.51.47.html
+[INFO ] 2021-11-22 11:51:49.507 [main] ReadConfig - Driver is initialized
+[INFO ] 2021-11-22 11:51:56.058 [main] ReadConfig - Navigated to URL
+[INFO ] 2021-11-22 11:52:01.131 [main] ReadConfig - minion lover is selected from dropdown
+[INFO ] 2021-11-22 11:52:04.911 [main] ReadConfig - minion gifts page is opened
+[INFO ] 2021-11-22 11:52:05.168 [main] ReadConfig - quantity is increased
+[INFO ] 2021-11-22 11:52:05.372 [main] ReadConfig - product is added to cart
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 33849
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 22, 2021 11:51:49 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Cart" classname="com.mindtree.com.testcases.TC_010_GiftCard" time="21.202">
+    <system-out><![CDATA[[INFO ] 2021-11-22 11:52:09.548 [main] ReadConfig - Driver is closed
+2021.11.22.11.52.09-----------
+Test-Report2021.11.22.11.52.09.html
+[INFO ] 2021-11-22 11:52:12.354 [main] ReadConfig - Driver is initialized
+[INFO ] 2021-11-22 11:52:18.747 [main] ReadConfig - Navigated to URL
+[INFO ] 2021-11-22 11:52:21.813 [main] ReadConfig - navigated to search page
+[INFO ] 2021-11-22 11:52:28.132 [main] ReadConfig - navigated to product description page
+[INFO ] 2021-11-22 11:52:28.480 [main] ReadConfig - Product is added to cart
+[INFO ] 2021-11-22 11:52:30.261 [main] ReadConfig - gift card option is selected
+[INFO ] 2021-11-22 11:52:30.458 [main] ReadConfig - name of sender is entered
+[INFO ] 2021-11-22 11:52:30.678 [main] ReadConfig - name of receiver is entered
+[INFO ] 2021-11-22 11:52:30.852 [main] ReadConfig - message to be sent is entered
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 11312
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 22, 2021 11:52:12 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>
